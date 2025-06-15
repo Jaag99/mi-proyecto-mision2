@@ -63,7 +63,7 @@ function calcular() {
         return `calcularFactorial("${num}")`;
       });
 
-    // ✅ CORREGIDO: Manejamos las funciones trigonométricas según RAD o GRAD
+    
     expresion = expresion.replace(
       /\b(sin|cos|tan|asin|acos|atan|exp)\(([^)]+)\)/g,
       (_, funcion, valor) => {
